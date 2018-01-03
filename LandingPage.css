@@ -26,6 +26,7 @@ h3{
 #EMAIL{ 
 	font-size:30px;
  }
+
 form {
 	background-color:;
 	border-radius: 5px; border-style:; border-width: 2px;
@@ -52,8 +53,10 @@ button{
 	font-size: 20px;
 	margin:0 auto;
 	border-radius: 5px;	
-
 }
+
+button:hover{animation:pulsation_bouton .8s ease-out 1 forwards}
+
 
  p{
  	color: white;
@@ -62,10 +65,11 @@ button{
  	font-family: palatino;
  }
 
-.image2{
-	width: ;
+.image3{
+	width: 200px;
 }
-img { 
+
+.image1 { 
 	width: 200px;
 	 }
 
@@ -81,11 +85,40 @@ img {
 	justify-content:center;
 }
 
+#conteneur3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
-@media screen and(min-widht:500px;){
-	section {
-		background:white;
-
+@media screen and (max-width:600px)
+{
+	h1{
+		font-size: 60px;
+		text-decoration: 
 	}
 
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	p{
+		font-size: 15px;
+	}
+	.image1, .image3{
+		width: 100px;
+	}
+	input{
+		width: 150px;
+		font-size: 14px;
+	}
+	button{
+		font-size: 10px;
+	}
 }
+
+
+
